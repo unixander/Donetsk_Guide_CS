@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <Button
+        android:id="@+id/searchschedulebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/search" />
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchschedulebtn" >
+
+    </ListView>
+
+
+
+
+    <EditText
+        android:id="@+id/scheduleSearch"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:inputType="text" >
+
+    </EditText>
+
+
+
+    <Spinner
+        android:id="@+id/typeSpinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:entries="@array/transports"
+        android:layout_toLeftOf="@+id/searchschedulebtn"
+        android:layout_toRightOf="@+id/scheduleSearch"
+        />
+
+</RelativeLayout>

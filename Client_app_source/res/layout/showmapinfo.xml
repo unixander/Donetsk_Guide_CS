@@ -1,0 +1,14 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+ 
+ 			<com.google.android.maps.MapView
+ 			    android:id="@+id/DGMapView"
+ 			    android:layout_width="fill_parent"
+ 			    android:layout_height="fill_parent"
+ 			    android:clickable="true"
+ 			    android:apiKey="0TIyiXGhMdHscwt-mnxk_2F2P3Z-gjfRdETeFcA"
+ 			     />
+    </RelativeLayout>

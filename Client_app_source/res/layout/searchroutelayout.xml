@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/SearchRouteText"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/choose_points"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnMapPointOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="17dp"
+        android:text="@string/map_point_one" />
+
+    <ToggleButton
+        android:id="@+id/toggleMPOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnMapPointOne"
+        android:layout_toRightOf="@+id/btnMapPointOne"
+        android:textOn="OK"
+        android:textOff="OFF" />
+
+    <Button
+        android:id="@+id/btnMapPointTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnMapPointOne"
+        android:layout_alignRight="@+id/btnMapPointOne"
+        android:layout_below="@+id/btnMapPointOne"
+        android:text="@string/map_point_2" />
+
+    <ToggleButton
+        android:id="@+id/toggleMPTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toggleMPOne"
+        android:layout_alignTop="@+id/btnMapPointTwo"
+        android:textOn="OK"
+        android:textOff="OFF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnMapPointTwo"
+        android:layout_below="@+id/btnMapPointTwo"
+        android:layout_marginTop="20dp"
+        android:text="@string/enhanced_search_q"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/toggleMPTwo"
+            android:layout_marginBottom="15dp"
+            android:text="@string/search" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnSearch"
+            android:layout_alignLeft="@+id/btnSearch"
+            android:text="@string/fill_in_fields"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="17dp"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/radioButton1"
+            android:layout_alignBottom="@+id/radioButton1"
+            android:layout_toRightOf="@+id/textView1"
+            android:text="@string/no" />
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instr_mainmenu">In the main menu You can see 6 buttons.\r\n Routes - shows the list of transport routes 
+        \r\nPlaces - shows the list of tourist places \r\nInstructions - shows instruction \r\nMap
+         - shows Your location and nearby tourist places \r\nOptions - show administrator menu, which give you an opportunity to add|edit|delete
+         stations, places or routes</string>
+    <string name="instr_routes">In the routes page there is a list of available transport routes. To view more detailed information about the route 
+        tap on the chosen one. A new page opens, where you can see main infromation about the route (such as cost, interval, time of begin and end of work)
+        Also here you can see stations of the route. Click checkboxes to select which of the stations would be displayed on the map. To display 
+        stations on the map tap on \show on the map button\</string>
+        <string name="instr_places">In the places page there is a list of places, that can be interesting for tourists. More detailed information about place becomes
+            available after click on the place name in the list. Information about place includes name of the place, type, description, illustration (if available).
+            Also you can see list of transport stations, that can help you to find the proper transport route to get to the place. When you tap on the "show on the map"
+            button you can see place location and location of related stations on the map. </string>
+            <string name="about_author">
+                Program: Donetsk Guide\r\n
+                Version: 1.0 alpha\r\n
+                Author:  Unixander (Alexander Yershov)\r\n
+                Site:  <a href="http://unixander.org.ua/">Web-site</a>||<a href="mailto: unixander@gmail.com">Send mail</a>\r\n
+                Description: Tourist guide to the city of Donetsk
+				
+            </string>
+</resources>

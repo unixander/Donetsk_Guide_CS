@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transport_promt">type</string>
+    <string-array name="transports">
+        <item>Any type</item>
+        <item>Tram</item>
+        <item>Bus</item>
+        <item>Trolleybus</item>
+    </string-array>
+</resources>

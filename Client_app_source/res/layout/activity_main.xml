@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/MainRelativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background_main" >
+
+        <ImageButton
+            android:id="@+id/ScheduleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="31dp"
+            android:contentDescription="@string/routes"
+            android:src="@drawable/schedule"
+             />
+
+        <ImageButton
+            android:id="@+id/PlacesButton"
+            android:contentDescription="@string/places"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ScheduleButton"
+            android:layout_toRightOf="@+id/ScheduleButton"
+            android:src="@drawable/places" />
+
+        <ImageButton
+            android:id="@+id/MapButton"
+            android:contentDescription="@string/map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ScheduleButton"
+            android:layout_toRightOf="@+id/ScheduleButton"
+            android:src="@drawable/map" />
+
+        <ImageButton
+            android:id="@+id/SettingsButton"
+            android:contentDescription="@string/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ScheduleButton"
+            android:layout_below="@+id/MapButton"
+            android:src="@drawable/settings" />
+
+        <ImageButton
+            android:id="@+id/ExitButton"
+            android:contentDescription="@string/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/MapButton"
+            android:layout_below="@+id/MapButton"
+            android:src="@drawable/exit" />
+
+        <ImageButton
+            android:id="@+id/InstructionsButton"
+            android:contentDescription="@string/instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ScheduleButton"
+            android:layout_alignTop="@+id/MapButton"
+            android:src="@drawable/instructions" />
+
+    </RelativeLayout>
+
+</LinearLayout>

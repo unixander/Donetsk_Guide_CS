@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="E:/Repositories/University/Donetsk_Guide_Server/google-gson/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="E:/Repositories/University/Donetsk_Guide_Server/dit2fls/defuzzifier.jar"/>
+	<classpathentry kind="lib" path="E:/Repositories/University/Donetsk_Guide_Server/dit2fls/ekm.jar"/>
+	<classpathentry kind="lib" path="E:/Repositories/University/Donetsk_Guide_Server/dit2fls/fuzzifier.jar"/>
+	<classpathentry kind="lib" path="E:/Repositories/University/Donetsk_Guide_Server/dit2fls/fuzzysum.jar"/>
+	<classpathentry kind="lib" path="E:/Repositories/University/Donetsk_Guide_Server/dit2fls/im1.jar"/>
+	<classpathentry kind="lib" path="E:/Repositories/University/Donetsk_Guide_Server/dit2fls/im2.jar"/>
+	<classpathentry kind="lib" path="E:/Repositories/University/Donetsk_Guide_Server/dit2fls/im3.jar"/>
+	<classpathentry kind="lib" path="E:/Repositories/University/Donetsk_Guide_Server/dit2fls/lio.jar"/>
+	<classpathentry kind="lib" path="E:/Repositories/University/Donetsk_Guide_Server/dit2fls/rules.jar"/>
+	<classpathentry kind="lib" path="E:/Repositories/University/Donetsk_Guide_Server/sqlite4java/sqlite4java.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
